@@ -36,6 +36,7 @@ p{
 }
 .section-m1{
     padding: 40px 0;
+    margin-bottom: 10px ;
 }
 
 button.normal{
@@ -405,13 +406,60 @@ background-image: url("img/banner/b4.jpg");
 }
 
 #newsletter{
+    background-image: url("img/banner/b14.png");
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #041e42;
+
+}
+
+#newsletter .container{
+    max-width: 1120px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-image: url("img/banner/b14.png");
-    background-repeat: no-repeat;
-    background-position: 20% 30%;
-    background-color: #088178;
+}
 
+#newsletter h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff
+}
+
+#newsletter p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #818ea0
+}
+
+#newsletter p span{
+    color: #ffbd27
+}
+
+#newsletter .form{
+    display: flex;
+}
+
+#newsletter input{
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width:100%;
+    border: 0;
+    border-radius: 6px;
+    outline: none;
+    margin-right: 10px;
+
+
+}
+
+#newsletter button{
+   background-color: #088178;
+   color: #fff;
+   white-space: nowrap;
+   border: 0;
+   border-radius: 6px;
+  
 }
